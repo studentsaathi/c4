@@ -50,13 +50,15 @@ let append =(data,show)=>{
         image.src=urlToImage;
         let h2=document.createElement("h2")
         h2.innerText=title;
+        let p=document.createElement("p")
+        p.innerText=description;
 
        
 
     
         
        //var a= document.getElementById("results")
-       show.append(image,h2);
+       show.append(image,h2,p);
 
     });
    
